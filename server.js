@@ -39,5 +39,5 @@ app.listen(4000, function () {
 });
 
 
-require('./middleware');
+require('./authMiddleware');
 require("./routes");

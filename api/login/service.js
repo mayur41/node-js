@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 const userModal = require("../../collection/userModel");
-const { createHashPassword, comparePassword } = require('../../middleware');
+const { createHashPassword, comparePassword } = require('../../authMiddleware');
 
 
 

@@ -1,5 +1,5 @@
 const Ctrl = require('./controller');
-const middleware = require('../../middleware');
+const middleware = require('../../authMiddleware');
 
 var app = module.exports = express.Router();
 app.route('/api/getTaskList').get(middleware.checkAuth, Ctrl.getTaskList);
